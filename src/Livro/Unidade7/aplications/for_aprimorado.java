@@ -1,0 +1,14 @@
+package Learning_Java.src.Livro.Unidade7.aplications;
+
+public class for_aprimorado {
+    public static void main(String[] args) {
+        int[] array = { 87, 68, 94, 100, 83, 78, 85, 91, 76, 87 };
+        int total = 0;
+
+        // adiciona o valor de cada elemento ao total
+        for (int number : array)
+            total += number;
+
+        System.out.printf("Total of array elements: %d%n", total);
+    }
+}
